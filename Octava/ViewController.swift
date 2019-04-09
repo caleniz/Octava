@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+var caca = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
