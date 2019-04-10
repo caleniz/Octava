@@ -22,9 +22,9 @@
 		8D33ECEA225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECE9225D68EC009E6FE2 /* Launch Screen.storyboard */; };
 		8D33ECEB225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECE9225D68EC009E6FE2 /* Launch Screen.storyboard */; };
 		8D33ECEC225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECE9225D68EC009E6FE2 /* Launch Screen.storyboard */; };
-		8D33ECEE225D699D009E6FE2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Storyboard.storyboard */; };
-		8D33ECEF225D699D009E6FE2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Storyboard.storyboard */; };
-		8D33ECF0225D699D009E6FE2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Storyboard.storyboard */; };
+		8D33ECEE225D699D009E6FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Main.storyboard */; };
+		8D33ECEF225D699D009E6FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Main.storyboard */; };
+		8D33ECF0225D699D009E6FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33ECED225D699D009E6FE2 /* Main.storyboard */; };
 		E3F2FD50946B7DE27891B518 /* Pods_Octava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548B24BD6CE45AC1D9493CB7 /* Pods_Octava.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		8D33ECE5225D5BDC009E6FE2 /* Octava.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Octava.entitlements; sourceTree = "<group>"; };
 		8D33ECE7225D5BDF009E6FE2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		8D33ECE9225D68EC009E6FE2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		8D33ECED225D699D009E6FE2 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8D33ECED225D699D009E6FE2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E2D0295C6271502F4C966495 /* Pods-OctavaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctavaUITests.release.xcconfig"; path = "Target Support Files/Pods-OctavaUITests/Pods-OctavaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E81B938C115162CE80C63698 /* Pods-OctavaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctavaTests.release.xcconfig"; path = "Target Support Files/Pods-OctavaTests/Pods-OctavaTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB555C2F5F781593A99D6274 /* Pods_OctavaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OctavaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +113,6 @@
 				EBF4278094E0F386AD492D0B /* Pods-OctavaUITests.debug.xcconfig */,
 				E2D0295C6271502F4C966495 /* Pods-OctavaUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,7 +141,7 @@
 		8D33ECAB225D4F88009E6FE2 /* Octava */ = {
 			isa = PBXGroup;
 			children = (
-				8D33ECED225D699D009E6FE2 /* Storyboard.storyboard */,
+				8D33ECED225D699D009E6FE2 /* Main.storyboard */,
 				8D33ECE5225D5BDC009E6FE2 /* Octava.entitlements */,
 				8D33ECAC225D4F88009E6FE2 /* AppDelegate.swift */,
 				8D33ECAE225D4F88009E6FE2 /* ViewController.swift */,
@@ -301,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D33ECE2225D5AD3009E6FE2 /* GoogleService-Info.plist in Resources */,
-				8D33ECEE225D699D009E6FE2 /* Storyboard.storyboard in Resources */,
+				8D33ECEE225D699D009E6FE2 /* Main.storyboard in Resources */,
 				8D33ECB7225D4F89009E6FE2 /* Assets.xcassets in Resources */,
 				8D33ECEA225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */,
 			);
@@ -313,7 +312,7 @@
 			files = (
 				8D33ECEB225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */,
 				8D33ECE3225D5AD3009E6FE2 /* GoogleService-Info.plist in Resources */,
-				8D33ECEF225D699D009E6FE2 /* Storyboard.storyboard in Resources */,
+				8D33ECEF225D699D009E6FE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +322,7 @@
 			files = (
 				8D33ECEC225D68EC009E6FE2 /* Launch Screen.storyboard in Resources */,
 				8D33ECE4225D5AD3009E6FE2 /* GoogleService-Info.plist in Resources */,
-				8D33ECF0225D699D009E6FE2 /* Storyboard.storyboard in Resources */,
+				8D33ECF0225D699D009E6FE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
